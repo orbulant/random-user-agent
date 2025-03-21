@@ -2,6 +2,8 @@
 
 A Go package that generates random, realistic user agent strings for common browsers.
 
+**This is useful for bypassing API restrictions that block requests with the same or missing `User-Agent` header in the HTTP request**
+
 ## Installation
 
 ```sh
